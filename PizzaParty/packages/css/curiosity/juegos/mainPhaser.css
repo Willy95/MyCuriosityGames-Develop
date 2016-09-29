@@ -1,0 +1,10 @@
+@font-face{
+	font-family : kiddish;
+	src : url(/packages/fonts/Kiddish.ttf);
+}
+
+html, body{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
