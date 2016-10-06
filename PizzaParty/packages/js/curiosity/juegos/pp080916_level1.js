@@ -227,6 +227,16 @@ var pp_lv1 = {
       if (subNivel > 1) { subNivel--; }
     }
     $puntajeText.text = puntos + " Puntos";
+  },
+  makeFullScreen : function(){
+    if (game.scale.isFullScreen)
+    {
+        game.scale.stopFullScreen();
+    }
+    else
+    {
+        game.scale.startFullScreen(false);
+    }
   }
 
 }
